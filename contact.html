@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="pics.bandc/tech.png"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
 	<title>B and C Development</title>
 </head>
 <body>
@@ -36,15 +36,17 @@
 		</nav>
 	</header>
 	<script type="application/javascript" src="scripts.bandc/script.js"></script>
-<form>
-	<div id="contactform">
-		<p> Send us a message </p>
-		<input type="text" class="inputs" placeholder="Full Name" />
-		<input type="text" class="inputs" placeholder="Email" />
-		<input type="long-text" class="inputs" placeholder="Comment" />
-		<button action="mailto:camholds@squaredev.com">Submit</button>
+
+	<div>
+		<form action="mailto:camholds@bandcdev.com" id="contactform">
+			<p> Send us a message </p>
+			<input name="name" type="text" class="inputs" placeholder="Full Name" />
+			<input name="email" type="text" class="inputs" placeholder="Email" />
+			<input name="comment" type="long-text" class="inputs" placeholder="Comment" />
+			<button type="submit" value="Submit" action="mailto:camholds@squaredev.com">Submit</button>
+		</form>
 	</div>
-</form>
+
 
 </body>
 </html>
