@@ -1,0 +1,7 @@
+service: default
+runtime: go
+api_version: go1
+
+- url: /(.*\.(gif|png|jpg|html))$
+  static_files: /\1
+  upload: /.*\.(gif|png|jpg|html)$
